@@ -1,0 +1,8 @@
+﻿  Stdafx.cpp
+  AssemblyInfo.cpp
+  OpenHapticsWrapper.cpp
+  Generating Code...
+hdu.lib(hduHapticDevice.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+hdu.lib(hduError.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'hdu.lib(hduError.obj)' or at 'D:\Programming\Haptic Work\OpenHapticsWrapper\Debug\vc100.pdb'; linking object as if no debug info
+hdu.lib(hduHapticDevice.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'hdu.lib(hduHapticDevice.obj)' or at 'D:\Programming\Haptic Work\OpenHapticsWrapper\Debug\vc100.pdb'; linking object as if no debug info
+  OpenHapticsWrapper.vcxproj -> D:\Programming\Haptic Work\OpenHapticsWrapper\Debug\OpenHapticsWrapper.dll

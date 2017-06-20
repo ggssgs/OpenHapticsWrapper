@@ -1,0 +1,5 @@
+﻿  OpenHapticsWrapper.cpp
+d:\programming\haptic work\openhapticswrapper\openhapticswrapper\openhapticswrapper.cpp(75): warning C4700: uninitialized local variable 'ptrDOF' used
+hdu.lib(hduError.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'hdu.lib(hduError.obj)' or at 'D:\Programming\Haptic Work\OpenHapticsWrapper\x64\Debug\vc100.pdb'; linking object as if no debug info
+hdu.lib(hduHapticDevice.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'hdu.lib(hduHapticDevice.obj)' or at 'D:\Programming\Haptic Work\OpenHapticsWrapper\x64\Debug\vc100.pdb'; linking object as if no debug info
+  OpenHapticsWrapper.vcxproj -> D:\Programming\Haptic Work\OpenHapticsWrapper\x64\Debug\OpenHapticsWrapper.dll
