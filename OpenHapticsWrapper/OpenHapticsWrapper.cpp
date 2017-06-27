@@ -74,6 +74,7 @@ bool OpenHaptics::InitDevice()
 	HDint* ptrDOF;
 	hdGetIntegerv(HD_OUTPUT_DOF, ptrDOF);
 	dof = *ptrDOF;
+	//dof = 3;
 
 	deviceModel = Marshal::PtrToStringAnsi((IntPtr)(char*) hdGetString(HD_DEVICE_MODEL_TYPE));
 
