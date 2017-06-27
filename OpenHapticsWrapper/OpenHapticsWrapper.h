@@ -80,6 +80,7 @@ namespace OpenHapticsWrapper {
 		double inForceZ;
 
 		// Button state
-		bool bButtonState;
+		bool bButton1State;
+		bool bButton2State;
 	};
 }

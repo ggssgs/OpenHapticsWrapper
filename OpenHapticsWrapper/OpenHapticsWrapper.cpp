@@ -52,7 +52,8 @@ OpenHaptics::OpenHaptics(bool bForce, bool bInput)
 	inForceY = 0;
 	inForceZ = 0;
 
-	bButtonState = false;
+	bButton1State = false;
+	bButton2State = false;
 
 	gSchedulerCallback = HD_INVALID_HANDLE;
 
@@ -153,7 +154,9 @@ HDCallbackCode OpenHaptics::HapticCallback(void *data)
 	hdGetIntegerv(HD_CURRENT_BUTTONS, &currentButton);
 
 	// Button 1
-	bButtonState = currentButton & HD_DEVICE_BUTTON_1;
+	bButton1State = currentButton & HD_DEVICE_BUTTON_1;
+	// Button 2
+	bButton2State = currentButton & HD_DEVICE_BUTTON_2;
 
 	clientDevicePosition = hduVector3Dd(clientDevicePosition[0], clientDevicePosition[1], clientDevicePosition[2]);
 	
